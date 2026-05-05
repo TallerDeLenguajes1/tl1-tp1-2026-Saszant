@@ -33,3 +33,10 @@ El codigo realiza 3 operaciones sobre el numero "dato_secreto" el cual tiene por
 - Falta un ";" al final de la linea 18. Para resolverlo agrego dicho ";".
 - La funcion "duplicar_numeros" recibe una copia del valor y no modifica la variable original del main. Para resolverlo cambio los parametros de la funcion y especifico que recibe un dato tipo puntero. Tambien modifico la invocacion haciendo que envie una direccion de memoria.
 - Falta un ";" al final de la linea 24. Para resolverlo agrego dicho ";".
+
+## Punto 4.g
+
+Los resultados del punto e.2 y e.3 son iguales ya que el puntero guarda la direccion de memoria de la variable, por lo que, mostrar la direccion de memoria de la variable y mostrar la direccion de memoria almacenada por el puntero es exactamente lo mismo.
+El punto e.4 obtiene la direccion de memoria en donde se guarda puntero, osea es la direccion de memoria donde se guarda la direccion de memoria de la variable.
+No es igual a los anteriores ya que en este caso se obtuvo la direccion de memoria del puntero, no la direccion de memoria guardada por en puntero ni la direccion de memoria de la variable.
+
